@@ -8,6 +8,9 @@ body{
 
 .main-nav{
  background-color: #37517e;
+ position: sticky;
+ top:0;
+ z-index: 99999;
  
 }
 
@@ -82,9 +85,14 @@ body{
     text-align: center;
     color:#37517e;
 }
+
 .icon-text{
     padding: 0;
    
+}
+.info-text{
+    color:#37517e ;
+    padding: 30px;
 }
 .icon-text i{
     color: #449ccc;
@@ -94,4 +102,38 @@ body{
     color: #47b2e4;
     border: 1px solid #47b2e4;
     font-weight: 700;
+}
+
+/*-------Accordian info--------*/
+.info-section{
+    background: #f3f5fa;
+    height: 100vh;
+}
+
+.border-acc{
+    border: none;
+}
+.accordion-item{
+    border: none;
+}
+
+.Info-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*-----volunteer Section-----*/
+.vol-col{
+    color: #37517e;
+}
+.progress-border{
+    border-radius: 0%;
+    height: 10px;
+}
+.progress-text{
+    color: #4668a2;
+}
+.progress-bar{
+    background: #37517e;
 }
