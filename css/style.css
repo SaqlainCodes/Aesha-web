@@ -1,4 +1,4 @@
-body{
+body {
     padding: 0%;
     margin: 0;
     box-sizing: border-box;
@@ -6,27 +6,28 @@ body{
 
 /*----Nav-Bar------*/
 
-.main-nav{
- background-color: #37517e;
- position: sticky;
- top:0;
- z-index: 99999;
- 
+.main-nav {
+    background-color: #37517e;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+
 }
 
-.nav-logo h1{
+.nav-logo h1 {
     color: #ffffff;
 }
 
-.nav-links a{
- color: #ffffff;
+.nav-links a {
+    color: #ffffff;
 }
-.nav-links a:hover{
+
+.nav-links a:hover {
     color: #449ccc;
 }
 
 
-.nav-bttn{
+.nav-bttn {
     padding: 8px 20px;
     background: #37517e;
     color: #fafbfc;
@@ -35,69 +36,74 @@ body{
 }
 
 /*-----Hero Section------*/
-.hero-section{
+.hero-section {
     background: #37517e;
 }
 
-.hero-col h2{
+.hero-col h2 {
     font-size: 50px;
     font-weight: 700;
     color: #ffffff;
 }
 
-.hero-col p{
+.hero-col p {
     color: #aab5c8;
     font-size: 20px;
     font-weight: 600;
 }
-.hero-button{
+
+.hero-button {
     padding: 8px 25px;
     background: #47b2e4;
     color: #ffffff;
     border-radius: 25px;
     border: none;
-   
+
 }
 
-.hero-Bttns span{
+.hero-Bttns span {
     color: #aab5c8;
     font-size: 30px;
     font-weight: 600;
 }
 
-.Play-icon{
+.Play-icon {
     font-size: 30px;
-    
+
 }
 
 /*-------Logo Sections------*/
-.Logo-Section{
+.Logo-Section {
     background: #f3f5fa;
 }
-.clients-row{
+
+.clients-row {
     align-items: center;
 }
 
 /*------About-Section------*/
-.about-row h2{
+.about-row h2 {
     font-size: 40px;
     font-weight: 900;
     text-align: center;
-    color:#37517e;
+    color: #37517e;
 }
 
-.icon-text{
+.icon-text {
     padding: 0;
-   
+
 }
-.info-text{
-    color:#37517e ;
+
+.info-text {
+    color: #37517e;
     padding: 30px;
 }
-.icon-text i{
+
+.icon-text i {
     color: #449ccc;
 }
-.about-bttn{
+
+.about-bttn {
     padding: 8px 25px;
     color: #47b2e4;
     border: 1px solid #47b2e4;
@@ -105,35 +111,67 @@ body{
 }
 
 /*-------Accordian info--------*/
-.info-section{
+.info-section {
     background: #f3f5fa;
     height: 100vh;
 }
 
-.border-acc{
-    border: none;
-}
-.accordion-item{
+.border-acc {
     border: none;
 }
 
-.Info-col{
+.accordion-item {
+    border: none;
+}
+
+.Info-col {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 /*-----volunteer Section-----*/
-.vol-col{
+.vol-col {
     color: #37517e;
 }
-.progress-border{
+
+.progress-border {
     border-radius: 0%;
     height: 10px;
 }
-.progress-text{
+
+.progress-text {
     color: #4668a2;
 }
-.progress-bar{
+
+.progress-bar {
     background: #37517e;
+}
+
+/*---------Services---------*/
+.service-section{
+    background:#f3f5fa ;
+}
+.icon-box{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 16px 1px rgba(1, 1, 1, 30%);
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.icon-box i{
+    color: #4fb5e5;
+    font-size: 30px;
+}
+.icon-box h2{
+    padding: 15px 0px;
+    color: #5a6f94;
+
+}
+.title{
+    text-align: center;
+}
+.title h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #37517e;
 }
