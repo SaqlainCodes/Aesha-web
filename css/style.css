@@ -35,3 +35,63 @@ body{
 .hero-section{
     background: #37517e;
 }
+
+.hero-col h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.hero-col p{
+    color: #aab5c8;
+    font-size: 20px;
+    font-weight: 600;
+}
+.hero-button{
+    padding: 8px 25px;
+    background: #47b2e4;
+    color: #ffffff;
+    border-radius: 25px;
+    border: none;
+   
+}
+
+.hero-Bttns span{
+    color: #aab5c8;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.Play-icon{
+    font-size: 30px;
+    
+}
+
+/*-------Logo Sections------*/
+.Logo-Section{
+    background: #f3f5fa;
+}
+.clients-row{
+    align-items: center;
+}
+
+/*------About-Section------*/
+.about-row h2{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    color:#37517e;
+}
+.icon-text{
+    padding: 0;
+   
+}
+.icon-text i{
+    color: #449ccc;
+}
+.about-bttn{
+    padding: 8px 25px;
+    color: #47b2e4;
+    border: 1px solid #47b2e4;
+    font-weight: 700;
+}
