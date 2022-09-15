@@ -4,6 +4,10 @@ body {
     box-sizing: border-box;
 }
 
+.p{
+    color: #a2a2a2;
+}
+
 /*----Nav-Bar------*/
 
 .main-nav {
@@ -18,12 +22,14 @@ body {
     color: #ffffff;
 }
 
-.nav-links a {
-    color: #ffffff;
+.nav-link{
+    color: #ffffff !important;
 }
 
+
+
 .nav-links a:hover {
-    color: #449ccc;
+    color: #449ccc !important;
 }
 
 
@@ -33,6 +39,10 @@ body {
     color: #fafbfc;
     border: 1px solid #47b2e4;
     border-radius: 20px;
+}
+
+.nav-bttn:hover{
+    background-color: #449ccc;
 }
 
 /*-----Hero Section------*/
@@ -60,6 +70,10 @@ body {
     border: none;
 
 }
+.hero-button:hover{
+    background-color:#449ccc;
+    transition: 0.3s;
+}
 
 .hero-Bttns span {
     color: #aab5c8;
@@ -70,6 +84,9 @@ body {
 .Play-icon {
     font-size: 30px;
 
+}
+.Play-icon:hover{
+    color: #449ccc;
 }
 
 /*-------Logo Sections------*/
@@ -175,3 +192,191 @@ body {
     font-weight: 700;
     color: #37517e;
 }
+
+/*-------Call to Action---------*/
+.action-section{
+    background: #334665;
+}
+.Action-Row{
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.call-text{
+    color: #ffffff;
+}
+.action-button{
+    padding: 10px 35px;
+    border-radius: 35px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    background: transparent;
+    text-align: center;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+/*--------Team Section--------*/
+.team-section{
+    background: #f3f5fa;
+}
+
+.team-text h2{
+    color: #37517e;
+    font-weight: 700;
+}
+.team-text p{
+    color:#444444 ;
+}
+
+.team-info h4{
+    color:#37517e ;
+}
+.team-icons i{
+    color:#37517e;
+    border-radius: 50%;
+    padding: 6px 6px;
+}
+.team-icons :hover{
+    background: #449ccc;
+    color: white;
+}
+.pic{
+    width: 180px;
+}
+.team-box {
+    box-shadow:0px 0px 16px 1px rgba(1, 1, 1, 30%);
+}
+
+.team-img{
+    border-radius: 50%;
+}
+
+.text-team h2{
+    color:#37517e ;
+}
+
+.img-row{
+    display: flex;
+    align-items: center;
+    
+}
+
+.img-box{
+    padding: 0px;
+    background: #ffffff;
+    box-shadow:0px 0px 16px 1px rgba(1, 1, 1, 30%);
+}
+
+.col-md-3{
+    width: 180px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+/*-------pricing Section-------*/
+.team-text{
+    text-align: center;
+}
+.price-box{
+   box-shadow:0px 0px 16px 1px rgba(1, 1, 1, 30%);
+}
+.price-box ul{
+    list-style: none;
+}
+.price-box li a{
+    text-decoration: none;
+    color: #a2a2a2;
+}
+.price-box h6{
+    font-weight: 800;
+    color: #37517e;
+}
+.price-box ul li i{
+    color: #28a745;
+}
+.price-box h2{
+    color: #37517e;
+}
+.price-box h5{
+    color: #449ccc !important;
+    font-weight: 400;
+}
+.links ul{
+    padding: 0px;
+}
+
+.price-bttn{
+    padding: 8px 25px;
+    background: #47b2e4;
+    color: #ffffff;
+    border-radius: 25px;
+    border: none;
+}
+
+/*-------FAQ question--------*/
+.FAQ-box{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.accordian-links ul{
+ list-style: none;
+}
+.accordian-links ul li a{
+    text-decoration: none;
+}
+
+/*--------Contact Section------*/
+
+.font-icon{
+    padding: 12px 8px;
+    border-radius: 50%;
+    background: #e6f5fb;
+    color: #5bbae7;
+}
+.font-icon:hover{
+    background: #47b2e4;
+    color: white;
+}
+
+.location h4{
+    color:#37517e;
+}
+.email-addres h4{
+    color: #37517e;
+}
+.call-num h4{
+    color: #37517e;
+}
+    
+.location p{
+    color: #6c8abf;
+}
+.email-addres p{
+    color: #6c8abf;
+}
+.call-num p{
+    color:#6c8abf;
+}
+.location-box{
+    box-shadow:0px 0px 16px 1px rgba(1, 1, 1, 30%);
+    height: 80vh;
+}
+
+/*----form---*/
+
+.area{
+    height: 400vh;
+}
+
+.form-btn{
+    padding: 10px 35px;
+    border-radius: 35px;
+    color: white;
+    background: #47b2e4;
+    border: none;
+    font-weight: 500;
+}
+ 
