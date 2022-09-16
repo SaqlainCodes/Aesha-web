@@ -546,6 +546,43 @@
       </div>
     </section>
 
+    <!--------Portfolio------>
+    <section>
+      <div class="container">
+        <div class="row text-center">
+          <div class="team-text pt-5">
+            <h2>PORTFOLIO</h2>
+            <p class="pt-4">
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+        </div>
+
+        <!----Row portfolio--->
+        <div class="row">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">home1</div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">home</div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">profile</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-----Team Section----->
     <section class="team-section">
       <div class="container">
@@ -1029,13 +1066,13 @@
       <div class="row mb-5">
 
         <div class="col-lg-5">
-          <div class="location-box">
+          <div class="location-box p-4">
             <div class="adress d-flex">
               <div class="icon">
                 <i class="fa-sharp fa-solid fa-location-pin px-3 font-icon"></i>
               </div>
   
-              <div class="location px-3">
+              <div class="location px-3 ">
                 <h4>Location</h4>
                 <p>A108 Adam Street, New York, NY<br> 535022</p>
               </div>
@@ -1062,35 +1099,40 @@
                 <p>+921888567882</p>
               </div>
             </div>
-          </div>
 
+            <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d106245.08366017135!2d73.0202112!3d33.6789504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1663308107171!5m2!1sen!2s" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+       
           
         </div>
 
-      
+      <!-------Form-Box----->
+
         <div class="col-lg-7">
-          <div class="form-box">
+          <div class="form-box p-4">
               <div class="row">
                 
-                <div class="col-md-6 px-5 pt-3">
+                <div class="col-md-6">
                   <label for="exampleInputPassword1" class="form-label">Your Name</label>
                   <input type="password" class="form-control" id="exampleInputPassword1">
                 </div>
   
                 
-                  <div class="col-md-6 px-5 pt-3">
+                  <div class="col-md-6 ">
                     <label for="exampleInputPassword1" class="form-label">Password</label>
                     <input type="password" class="form-control" id="exampleInputPassword1">
                   </div>
               </div>
             
   
-              <div class="mb-3 px-5">
+              <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Subject</label>
                 <input type="subject" class="form-control" id="exampleInputPassword1">
               </div>
   
-              <div class="mb-3 px-5">
+              <div class="mb-3 ">
                 <label for="exampleInputPassword1" class="form-label">Message</label>
                 <textarea class="form-control" name="message" rows="10"></textarea>
               </div>
